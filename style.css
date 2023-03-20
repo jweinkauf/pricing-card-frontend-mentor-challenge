@@ -1,0 +1,122 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Karla';
+  font-size: 16px;
+}
+
+h2, h4, p {
+  margin: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 80px;
+}
+
+#card {
+  width: 650px;
+  height: 400px;
+  box-shadow: 2px 3px 10px 0 rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#join-box {
+  width: 100%;
+  height: 45%;
+  padding: 30px;
+}
+
+#bottom-section {
+  width: 100%;
+  height: 55%;
+}
+
+#sub-box {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  vertical-align: top;
+  background-color: #2ab2af;
+  padding: 30px;
+  color: white;
+}
+
+#price {
+  font-weight: 700;
+  font-size: 1.4rem
+}
+
+#why-box {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  vertical-align: top;
+  background-color: #2EBFBD;
+  padding: 30px;
+  color: white;
+}
+
+button {
+  background-color: #c0df34;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  width: 100%
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #A9C42D;
+  transform: scale(1.02);
+}
+
+#join-box h2 {
+  color: #2ab2af;
+  margin-bottom: 20px;
+}
+
+#join-box h4 {
+  color: #c0df34;
+  margin-bottom: 10px;
+}
+
+#join-box p {
+  color: #98a6bd
+}
+
+#sub-box h4 {
+  margin-bottom: 25px;
+}
+
+#price-frequency, #price {
+  display: inline-block;
+}
+
+#price-container {
+  margin-bottom: 7px;
+}
+
+#price-frequency {
+  position: relative;
+  top: -3px;
+  font-size: 0.8rem;
+  opacity: 0.65;
+  margin-left: 8px;
+}
+
+#sub-box p {
+  font-size: 0.85rem;
+  margin-bottom: 30px;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
